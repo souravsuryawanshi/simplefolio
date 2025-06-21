@@ -18,7 +18,7 @@
     <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
 
     <!-- Todo: put here your site title -->
-    <title>[Your name here] | Developer</title>
+    <title>Sourav | Portfolio</title>
     <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
     <meta name="keywords" content="[username], [name], skill" />
     <!-- Todo: improve your SEO by adding a small description of you -->
@@ -46,9 +46,9 @@
     <section id="hero" class="jumbotron">
       <div class="container">
         <h1 class="hero-title load-hidden">
-          Hi, my name is <span class="text-color-main">Your Name</span>
+          Hi, my name is <span class="text-color-main">Sourav Suryawanshi</span>
           <br />
-          I'm the Unknown Developer.
+          I'm a Software Engineer | Learner | Minimalist.
         </h1>
         <p class="hero-cta load-hidden">
           <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
@@ -66,31 +66,68 @@
         <div class="row about-wrapper">
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__image load-hidden">
-              <img
-                alt="Profile Image"
-                class="img-fluid rounded shadow-lg"
-                height="auto"
-                width="300px"
-                src="assets/profile.jpg"
-                alt="Profile Image"
-              />
+              
+              <svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="300" height="300" rx="20" fill="#fdfdfd"/>
+                
+                <!-- Laptop Screen -->
+                <rect x="70" y="80" width="160" height="100" rx="10" fill="#ffffff" stroke="#0077b6" stroke-width="2"/>
+                
+                <!-- Screen animation gradient -->
+                <rect x="80" y="90" width="140" height="80" rx="6" fill="url(#grad)">
+                  <animate attributeName="x" values="80;85;80" dur="4s" repeatCount="indefinite" />
+                </rect>
+                
+                <!-- Laptop Base -->
+                <rect x="65" y="180" width="170" height="20" rx="4" fill="#0077b6" opacity="0.2"/>
+                
+                <!-- Code Lines -->
+                <line x1="90" y1="100" x2="190" y2="100" stroke="#ff6b6b" stroke-width="2">
+                  <animate attributeName="x2" values="90;180;90" dur="3s" repeatCount="indefinite" />
+                </line>
+                <line x1="90" y1="110" x2="170" y2="110" stroke="#0077b6" stroke-width="2">
+                  <animate attributeName="x2" values="90;160;90" dur="3s" repeatCount="indefinite" />
+                </line>
+                <line x1="90" y1="120" x2="180" y2="120" stroke="#ff6b6b" stroke-width="2">
+                  <animate attributeName="x2" values="90;150;90" dur="3s" repeatCount="indefinite" />
+                </line>
+                
+                <!-- Floating Hello Text -->
+                <text x="150" y="240" text-anchor="middle" fill="#0077b6" font-size="18" font-family="Verdana" opacity="0.8">
+                  👋Hello!
+                  <animate attributeName="y" values="240;235;240" dur="2s" repeatCount="indefinite"/>
+                </text>
+                
+                <!-- Gradient for screen glow -->
+                <defs>
+                  <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0%" stop-color="#e0f7fa" />
+                    <stop offset="100%" stop-color="#b2ebf2" />
+                  </linearGradient>
+                </defs>
+              </svg>
             </div>
           </div>
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info load-hidden">
               <p class="about-wrapper__info-text">
-                This is where you can describe about yourself. The more you
-                describe about yourself, the more chances you can!
+                👋 <b>Hi, I’m Sourav</b> — a passionate and detail-oriented Frontend Engineer with 3 years of hands-on experience building intuitive, performant, and scalable web applications 🖥️.
+
+                I specialize in HTML, CSS, JavaScript, and have extensive experience working with modern frameworks like Angular and React. Over the years, I’ve contributed to products that impact thousands of users, and I take pride in writing clean, maintainable code that brings designs to life.
+                
+                I thrive in collaborative environments, enjoy solving real-world problems through technology, and am always learning to stay ahead in this ever-evolving field.
+                
+                🔍 Currently, I'm exploring opportunities where I can contribute to impactful projects, grow alongside talented teams, and build products that matter.
               </p>
               <p class="about-wrapper__info-text">
-                Extra Information about you! like hobbies and your goals.
+                When I am not working, I love travelling to new places, watching a light-hearted rom-com, reading a book, or listening to some soulful music 🎶.
               </p>
               <span class="d-flex mt-3">
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--resume"
-                  href="assets/resume.pdf"
+                  href="https://drive.google.com/file/d/1_D7-jbaJVWnzOMCzS9wgsgsRmOHQ6nZ3/view?usp=drivesdk"
                 >
                   View Resume
                 </a>
@@ -112,21 +149,17 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 0</h3>
+                <h3 class="project-wrapper__text-title">DeRet</h3>
                 <div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                   It is a web-app used for identifying stage of Retinography. User can upload image of fundus and get results about stage of Retinopathy. Made using Angular and Tensorflow.js. 
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="https://github.com/souravsuryawanshi/deret/"
                 >
                   See Live
                 </a>
@@ -134,7 +167,7 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="#!"
+                  href="https://github.com/souravsuryawanshi/deret/"
                 >
                   Source Code
                 </a>
@@ -142,7 +175,7 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a rel="noreferrer" href="https://github.com/souravsuryawanshi/deret/" target="_blank">
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -153,7 +186,7 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/deret-1.jpeg"
                     />
                   </div>
                 </a>
@@ -166,21 +199,17 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 1</h3>
+                <h3 class="project-wrapper__text-title">SmartBrain</h3>
                 <div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                   A Machine Learning based project where user can upload image and identify how many people are there in the image. Made using React and Node.
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="https://github.com/souravsuryawanshi/face-recognition-brain"
                 >
                   See Live
                 </a>
@@ -188,7 +217,7 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="#!"
+                  href="https://github.com/souravsuryawanshi/face-recognition-brain"
                 >
                   Source Code
                 </a>
@@ -196,7 +225,7 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a rel="noreferrer" href="https://github.com/souravsuryawanshi/face-recognition-brain" target="_blank">
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -207,7 +236,7 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/smartbrain.png"
                     />
                   </div>
                 </a>
@@ -216,58 +245,7 @@
           </div>
           <!-- /END Project -->
 
-          <!-- Notice: each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 2</h3>
-                <div>
-                  <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
-                  </p>
-                </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="#!"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project.jpg"
-                    />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
+          
           <!-- /END Project -->
         </div>
       </div>
@@ -279,13 +257,13 @@
       <div class="container">
         <h2 class="section-title">Contact</h2>
         <div class="contact-wrapper load-hidden">
-          <p class="contact-wrapper__text">[Put your call to action here]</p>
+          <!-- <p class="contact-wrapper__text">email - ssuryawanshi1028@gmail.com</p> -->
           <a
             rel="noreferrer"
             target="_blank"
             class="cta-btn cta-btn--resume"
-            href="mailto:example@email.com"
-            >Call to Action</a
+            href="mailto:ssuryawanshi1028@gmail.com"
+            >Send me an email here!</a
           >
         </div>
       </div>
@@ -299,13 +277,13 @@
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
         <div class="social-links">
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
+          <a rel="noreferrer" href="https://www.instagram.com/souravsuryawanshi/" target="_blank">
+            <i class="fa fa-instagram fa-inverse"></i>
           </a>
-          <a rel="noreferrer" href="#!" target="_blank">
+          <a rel="noreferrer" href="https://www.linkedin.com/in/sourav-suryawanshi/" target="_blank">
             <i class="fa fa-linkedin fa-inverse"></i>
           </a>
-          <a rel="noreferrer" href="#!" target="_blank">
+          <a rel="noreferrer" href="https://github.com/souravsuryawanshi" target="_blank">
             <i class="fa fa-github fa-inverse"></i>
           </a>
         </div>
@@ -314,35 +292,14 @@
 
         <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
         <p class="footer__text">
-          © 2021 - Template developed by
+          <!-- © 2025 - Template developed by
           <a rel="noreferrer" href="https://github.com/cobidev" target="_blank"
             >Jacobo Martínez</a
-          >
+          > -->
         </p>
 
         <!-- TO DO: remove this entire paragraph once you finish your portfolio -->
-        <p class="mt-3 pt-3">
-          <a
-            rel="noreferrer"
-            class="github-button"
-            href="https://github.com/cobidev/simplefolio/fork"
-            data-icon="octicon-repo-forked"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Fork ntkme/github-buttons on GitHub"
-            >Fork</a
-          >
-          <a
-            rel="noreferrer"
-            class="github-button"
-            href="https://github.com/cobidev/simplefolio"
-            data-icon="octicon-star"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Star cobidev/simplefolio on GitHub"
-            >Star</a
-          >
-        </p>
+      
       </div>
     </footer>
     <!-- /END Footer Section -->
