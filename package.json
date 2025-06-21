@@ -8,6 +8,10 @@
     "start": "parcel",
     "build": "parcel build"
   },
+  "engines": {
+  "node": "16.0.0"
+},
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cobidev/simplefolio"
