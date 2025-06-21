@@ -9,7 +9,7 @@
     "build": "parcel build"
   },
   "engines": {
-  "node": "16.x"
+  "node": "18.x"
 },
 
   "repository": {
